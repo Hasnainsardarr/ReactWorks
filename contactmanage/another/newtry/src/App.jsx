@@ -60,7 +60,7 @@ const App = () => {
       return filteredContacts;
     });
   };
-
+ 
   return (
     <>
       <div className="mx-auto max-w-[370px] px-4">
@@ -91,7 +91,7 @@ const App = () => {
         </div>
       </div>
       <ToastContainer position="bottom-center" />
-      <AddAndUpdateContact onClose={onClose} isOpen={isOpen} />
+      <AddAndUpdateContact onClose={onClose} isOpen={isOpen} /> 
     </>
   );
 };
